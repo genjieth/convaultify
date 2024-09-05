@@ -4,9 +4,8 @@ import Navbar from "../Navbar";
 
 import { useState, useEffect } from "react";
 import Loader from "../common/Loader";
-import Footer from "../Footer";
 
-export default function TopLayoutLanding({
+export default function TopLayout({
   children,
 }: {
   children: React.ReactNode;
@@ -34,7 +33,6 @@ export default function TopLayoutLanding({
                 </main>
               </div>
             </div>
-            <Footer />
             </>
           )}
         </>
